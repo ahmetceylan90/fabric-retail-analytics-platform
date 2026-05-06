@@ -33,21 +33,21 @@ flowchart TB
 4. Final curated tables are used for dashboards and reporting.
 
 ## Key Features
-
-Medallion architecture implementation.
-Automated data ingestion.
-Data cleansing and transformation.
-PII anonymization.
-Analytics-ready Gold tables.
-Portfolio-ready documentation.
+ 
+- Medallion architecture implementation.
+- Automated data ingestion.
+- Data cleansing and transformation.
+- PII anonymization.
+- Analytics-ready Gold tables.
+- Portfolio-ready documentation.
 
 ## Repository Structure
-
-notebooks/ - Fabric notebooks for ingestion and transformation.
-data/ - Sample anonymized source data.
-docs/ - Architecture notes and supporting documentation.
-screenshots/ - Pipeline and dashboard images.
-README.md - Project documentation.
+ 
+- `notebooks/` - Fabric notebooks for ingestion and transformation.
+- `data/` - Sample anonymized source data.
+- `docs/` - Architecture notes and supporting documentation.
+- `screenshots/` - Pipeline and dashboard images.
+- `README.md` - Project documentation.
 
 ## Prerequisites
 
