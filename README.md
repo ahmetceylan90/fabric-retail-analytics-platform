@@ -1,30 +1,19 @@
-# fabric-retail-analytics-platform
-End-to-end data engineering solution using Microsoft Fabric with medallion architecture
-
-# Fabric Retail Analytics Platform
-
-![Architecture](docs/architecture.png)
+# End-to-End Retail Analytics Platform
  
+End-to-end data engineering solution built on Microsoft Fabric, implementing a medallion architecture for retail analytics.
  
+## Project Overview
  
-## Overview
-Production-ready data engineering solution built on Microsoft Fabric, implementing medallion architecture (Bronze-Silver-Gold) for retail analytics.
+This project demonstrates an end-to-end retail analytics pipeline using Microsoft Fabric.  
+It ingests anonymized source data, transforms it through Bronze, Silver, and Gold layers, and prepares the data for reporting in Power BI.
  
 ## Architecture
-[We'll add this later]
  
-## Technologies
-- Microsoft Fabric Data Factory
-- Fabric Lakehouse
-- PySpark (Fabric Notebooks)
-- Delta Lake
-- Power BI
-- Python
-
-  flowchart LR
-    A[Source Data] --> B[Notebook or Dataflow Gen2]
+```mermaid
+flowchart TB
+    A[Anonymized Source Data] --> B[Ingestion Layer]
     B --> C[Bronze Lakehouse]
-    C --> D[Silver Cleansing]
-    D --> E[Gold Aggregations]
+    C --> D[Silver Transformation]
+    D --> E[Gold Aggregation]
     E --> F[Power BI Dashboard]
     D --> G[GitHub Portfolio]
