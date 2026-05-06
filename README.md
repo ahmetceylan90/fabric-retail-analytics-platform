@@ -20,3 +20,11 @@ Production-ready data engineering solution built on Microsoft Fabric, implementi
 - Delta Lake
 - Power BI
 - Python
+
+  flowchart LR
+    A[Source Data] --> B[Notebook or Dataflow Gen2]
+    B --> C[Bronze Lakehouse]
+    C --> D[Silver Cleansing]
+    D --> E[Gold Aggregations]
+    E --> F[Power BI Dashboard]
+    D --> G[GitHub Portfolio]
