@@ -19,18 +19,18 @@ flowchart TB
 ```
 ## Technologies
 
--- Microsoft Fabric Data Factory
--- Fabric Lakehouse
--- PySpark Fabric Notebooks
--- Delta Lake
--- Python
+-- Microsoft Fabric Data Factory.
+-- Fabric Lakehouse.
+-- PySpark Fabric Notebooks.
+-- Delta Lake.
+-- Python.
 
 ## Data Flow
 
 1. Source data is ingested into the Bronze layer.
 2. Data is cleaned, standardized, and anonymized in the Silver layer.
 3. Business rules and aggregations are applied in the Gold layer.
-$. Final curated tables are used for dashboards and reporting.
+4. Final curated tables are used for dashboards and reporting.
 
 ## Key Features
 
