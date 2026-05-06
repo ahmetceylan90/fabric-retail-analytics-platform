@@ -19,11 +19,11 @@ flowchart TB
 ```
 ## Technologies
 
--- Microsoft Fabric Data Factory.
--- Fabric Lakehouse.
--- PySpark Fabric Notebooks.
--- Delta Lake.
--- Python.
+- Microsoft Fabric Data Factory.
+- Fabric Lakehouse.
+- PySpark Fabric Notebooks.
+- Delta Lake.
+- Python.
 
 ## Data Flow
 
@@ -51,27 +51,27 @@ flowchart TB
 
 ## Prerequisites
 
-Microsoft Fabric workspace.
-Lakehouse.
-Sample dataset.
+- Microsoft Fabric workspace.
+- Lakehouse.
+- Sample dataset.
 
 ## How to Run This Project
 
-Create a Fabric workspace.
-Create a Lakehouse.
-Upload the source data to the Bronze layer.
-Run the notebook to transform data into Silver and Gold tables.
-Connect Power BI to the Gold layer for reporting.
+- Create a Fabric workspace.
+- Create a Lakehouse.
+- Upload the source data to the Bronze layer.
+- Run the notebook to transform data into Silver and Gold tables.
+- Connect Power BI to the Gold layer for reporting.(will skip this)
 
 ## Lessons Learned
 
-How to design a medallion architecture in Microsoft Fabric.
-How to ingest and transform data using notebooks and Dataflow Gen2.
-How to structure a portfolio-ready data engineering project.
-How to prepare curated analytics tables for BI reporting.
+- How to design a medallion architecture in Microsoft Fabric.
+- How to ingest and transform data using notebooks and Dataflow Gen2.
+- How to structure a portfolio-ready data engineering project.
+- How to prepare curated analytics tables for BI reporting.
 
 ## Contact
-Your Name
-LinkedIn: Your LinkedIn
+- Your Name
+- LinkedIn: Your LinkedIn
 GitHub: Your GitHub
 
