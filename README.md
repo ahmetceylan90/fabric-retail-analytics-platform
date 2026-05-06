@@ -15,17 +15,15 @@ flowchart TB
     B --> C[Bronze Lakehouse]
     C --> D[Silver Transformation]
     D --> E[Gold Aggregation]
-    E --> F[Power BI Dashboard]
     D --> G[GitHub Portfolio]
 ```
 ## Technologies
 
-Microsoft Fabric Data Factory
-Fabric Lakehouse
-PySpark Fabric Notebooks
-Delta Lake
-Power BI
-Python
+-- Microsoft Fabric Data Factory
+-- Fabric Lakehouse
+-- PySpark Fabric Notebooks
+-- Delta Lake
+-- Python
 
 ## Data Flow
 
@@ -33,6 +31,7 @@ Python
 2. Data is cleaned, standardized, and anonymized in the Silver layer.
 3. Business rules and aggregations are applied in the Gold layer.
 $. Final curated tables are used for dashboards and reporting.
+
 ## Key Features
 
 Medallion architecture implementation.
