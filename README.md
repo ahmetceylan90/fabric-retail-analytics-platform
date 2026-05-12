@@ -46,7 +46,7 @@ flowchart TB
 - `notebooks/` - Fabric notebooks for ingestion and transformation.
 - `data/` - Sample anonymized source data.
 - `docs/` - Architecture notes and supporting documentation.
-- `screenshots/` - Pipeline and dashboard images.
+- `screenshots/` - Pipeline and structure images.
 - `README.md` - Project documentation.
 
 ## Prerequisites
@@ -61,7 +61,7 @@ flowchart TB
 - Create a Lakehouse.
 - Upload the source data to the Bronze layer.
 - Run the notebook to transform data into Silver and Gold tables.
-- Connect Power BI to the Gold layer for reporting.(will skip this)
+- Connect Power BI to the Gold layer for reporting.(skipped this step)
 
 ## Lessons Learned
 
