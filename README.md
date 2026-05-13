@@ -45,7 +45,7 @@ flowchart TB
  
 - `notebooks/` - Fabric notebooks for ingestion and transformation.
 - `data/` - Sample anonymized source data.
-- `docs/` - Architecture notes and supporting documentation.
+- `docs/` - Architecture notes and supporting documentation like detailed architecture diagram.
 - `screenshots/` - Pipeline and structure images.
 - `README.md` - Project documentation.
 
