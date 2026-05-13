@@ -70,14 +70,9 @@ flowchart TB
 - How to structure a portfolio-ready data engineering project.
 - How to prepare curated analytics tables for BI reporting.
 
-## Contact
-- Your Name
-- LinkedIn: Your LinkedIn
-GitHub: Your GitHub
-
-📧 Contact
+## 📧 Contact
 - Ahmet Ceylan
 - 📧 Email: ceylan90ahmet@gmail.com
-💼 LinkedIn: (https://www.linkedin.com/in/ahmet-ceylan-ab8b127)
-🐙 GitHub: @ahmetceylan90
+- 💼 LinkedIn: (https://www.linkedin.com/in/ahmet-ceylan-ab8b127)
+- 🐙 GitHub: @ahmetceylan90
 
