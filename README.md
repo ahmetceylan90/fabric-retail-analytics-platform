@@ -75,3 +75,9 @@ flowchart TB
 - LinkedIn: Your LinkedIn
 GitHub: Your GitHub
 
+📧 Contact
+- Ahmet Ceylan
+- 📧 Email: ceylan90ahmet@gmail.com
+💼 LinkedIn: (https://www.linkedin.com/in/ahmet-ceylan-ab8b127)
+🐙 GitHub: @ahmetceylan90
+
